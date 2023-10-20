@@ -5,7 +5,8 @@ import classes from './MealItemForm.module.css'
 const MealItemForm = (props) => {
   return (
     <form className={classes.form}>
-        <Input label="Amount" 
+        <Input 
+            label="Amount"
             input={{
             id:'amount',
             type:'number',
